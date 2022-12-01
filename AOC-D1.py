@@ -15,4 +15,4 @@ total = 0
 for topelf in range(3):
     total += lst[topelf]
 
-print(total)
+print(total) 
