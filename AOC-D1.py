@@ -2,7 +2,7 @@ filename = "input.txt"
 
 with open(filename) as f:
     content = f.read().splitlines()
-
+ 
 lst = []
 currentTotal = 0
 for line in content:
