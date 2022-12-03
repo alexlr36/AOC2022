@@ -16,13 +16,13 @@ for i in range(27, 53):
 sum = 0;
 with open(filename) as f:
     content = f.read().splitlines()
-    charlst1 = {}
-    charlst2 = {}
-    charlst3 = {}
-    charlstlst = {0: charlst1, 1:charlst2, 2:charlst3}
-    currElf = 0
-    current_val = 1
-    for s in content:
+charlst1 = {}
+charlst2 = {}
+charlst3 = {}
+charlstlst = {0: charlst1, 1:charlst2, 2:charlst3}
+currElf = 0
+current_val = 1
+for s in content:
         # half = len(s) / 2
         # frstLst = s[:int(half)]
         # secndhalf = s[int(half):]
